@@ -1,0 +1,1 @@
+app.constant("url","../json/Names.json");

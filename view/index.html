@@ -1,0 +1,20 @@
+<html>
+<head>
+    <title>Random Application</title>
+    <script src="../lib/angular.min.js"></script>
+    <script src="../lib/app.js"></script>
+    <script src="../filter/customfilter.js"></script>
+    <script src="../value/value.js"></script>
+    <script src="../model/factory.js"></script>
+    <script src="../controller/ctrl.js"></script>
+</head>
+<body ng-app="myapp" ng-controller="ctrl">
+    <h1>Random Application</h1>
+    <button ng-click="show()">Get Values !</button>
+    <ul>
+        <li ng-repeat="name1 in names">
+            {{name1.name|filter}}
+            </li>
+    </ul>
+</body>
+</html>
