@@ -1,2 +1,3 @@
-# Random
-Code Snippet demonstrating *JSON connectivity* and *custom filter* in AngularJS
+# angular-json-connectivity
+
+Code Snippet demonstrating *JSON connectivity* and *custom filter* in AngularJS.
